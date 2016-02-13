@@ -2,14 +2,14 @@
 
 1. コンテキストルートにindex.jspを配置
 2. &lt;mvc:default-servlet-handler&gt;なし
-3. &lt;welcome-file-list&gt;はindex.htmlのみ
+3. 3. &lt;welcome-file-list&gt;はindex.htmlのみ
 
 - index : 1
 - index2: 1,2
 - index3: 1,3
 - index4: 1,2,3
 
-### http://.../&;t;context-root&gt;にアクセスした時に表示されるもの
+### http://.../&lt;context-root&gt;にアクセスした時に表示されるもの
 |      |Tomcat        |JBoss|Glassfish3    |Glassfish4|
 |------|--------------|-----|--------------|----------|
 |index |index.jsp     | <-  |HomeController| <-       |
