@@ -2,7 +2,7 @@
 
 1. コンテキストルートにindex.jspを配置
 2. &lt;mvc:default-servlet-handler&gt;なし
-3. 3. &lt;welcome-file-list&gt;はindex.htmlのみ
+3. &lt;welcome-file-list&gt;はindex.htmlのみ
 
 - index : 1
 - index2: 1,2
